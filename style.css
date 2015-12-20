@@ -1,10 +1,8 @@
-.outer-container {
-	display: flex;
-	position: absolute;
-	border: 3px dotted red;
-}
-
 .container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	position: relative;
 	height: 100vh;
@@ -64,4 +62,5 @@
 	font-size: 50%;		
 	/*color: #597BC1;*/
 	}
+
 }
